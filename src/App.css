@@ -1,0 +1,55 @@
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+#off {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+.field {
+    background-color: lightgreen;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.base {
+    width: 100px;
+	height: 100px;
+	background-color: #fff;
+    border: 1px solid rgb(129, 2, 2);
+    align-items: center;
+    align-content: center;
+}
+
+.base-unique {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vw 0;
+}
+
+.base-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+	width: 50px;
+	height: 50px;
+	background-color: rgb(76, 76, 244);
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    margin: 0 auto;
+}
